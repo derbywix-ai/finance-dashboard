@@ -1,0 +1,108 @@
+.dashboard-container {
+  font-family: "Poppins", sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  background-color: #007aff;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout-btn {
+  background: #fff;
+  color: #007aff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.summary-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.card h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #007aff;
+}
+
+.actions {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.create-btn {
+  background: #007aff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.invoice-table {
+  margin: 30px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.invoice-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.invoice-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #333;
+}
+
+.paid {
+  color: green;
+  font-weight: 500;
+}
+
+.unpaid {
+  color: red;
+  font-weight: 500;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  padding: 20px 0;
+}
